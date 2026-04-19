@@ -1,0 +1,43 @@
+/* src/styles/Footer.css */
+
+.footer {
+  background-color: #003366;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h4 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #00bcd4;
+  transform: scale(1.2);
+}

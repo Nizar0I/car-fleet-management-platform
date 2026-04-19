@@ -1,0 +1,180 @@
+/* Arrière-plan avec image agricole */
+.admin-login-container {
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./assets/agri2.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Carte login transparente et floutée */
+.admin-login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.8s ease-in-out;
+  color: #fff;
+}
+
+/* Titre */
+.admin-login-card h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+/* Champs */
+.admin-login-card .form-control {
+  background-color: rgba(255, 255, 255, 0.3); /* plus blanc = plus lisible */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #d5b6b6; /* texte noir pour plus de lisibilité */
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+
+.admin-login-card .form-control::placeholder {
+  color: #555
+}
+
+.admin-login-card .form-control:focus {
+  border-color: #00b894;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  color : #000;
+}
+
+/* Bouton */
+.admin-login-card .btn-primary {
+  background-color: #00c853;
+  border: none;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-card .btn-primary:hover {
+  background-color: #00a144;
+}
+
+/* Message d'alerte */
+.alert {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.animate-fade {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-4px); }
+  100% { transform: translateX(0); }
+}
+
+/* Centrage complet */
+
+/* .admin-login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('./assets/agri2.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+} */
+
+/* Carte de connexion */
+/* .admin-login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+} */
+
+/* Titre */
+/* .admin-login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+  font-weight: bold;
+} */
+
+/* Champ de formulaire */
+/* .admin-login-card .form-control {
+  border-radius: 6px;
+} */
+
+/* Bouton */
+/* .admin-login-card .btn-primary {
+  width: 100%;
+  border-radius: 6px;
+} */
+/* ----------------------------- */
+/* .alert {
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.4s ease-in-out;
+}
+
+.animate-fade {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-4px); }
+  100% { transform: translateX(0); }
+} */
+

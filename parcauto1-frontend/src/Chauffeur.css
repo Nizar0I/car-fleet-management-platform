@@ -1,0 +1,110 @@
+.chauffeur-page {
+  padding: 20px;
+}
+
+/* Formulaire */
+.chauffeur-page .form-style {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.chauffeur-page .form-style input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.chauffeur-page .form-style input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Boutons */
+.chauffeur-page .form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.chauffeur-page .btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.chauffeur-page .btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.chauffeur-page .btn-success:hover {
+  background-color: #218838;
+}
+
+.chauffeur-page .btn-cancel {
+  background-color: #e0a800;
+  color: white;
+}
+
+.chauffeur-page .btn-cancel:hover {
+  background-color: #c69500;
+}
+
+/* Tableau */
+.chauffeur-page .table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.chauffeur-page .table th,
+.chauffeur-page .table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.chauffeur-page .table th {
+  background-color: #343a40;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.chauffeur-page .table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.chauffeur-page .table tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .chauffeur-page .form-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chauffeur-page .form-style {
+    padding: 20px;
+  }
+
+  .chauffeur-page .table {
+    font-size: 14px;
+  }
+}

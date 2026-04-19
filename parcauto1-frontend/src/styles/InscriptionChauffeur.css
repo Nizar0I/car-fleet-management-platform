@@ -1,0 +1,127 @@
+.chauffeur-section {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('../assets/chaf2.jpg') center center / cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.chauffeur-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.chauffeur-form {
+  background-color: rgba(255, 255, 255, 0.85); /* transparence + blanc */
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+.chauffeur-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.chauffeur-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.chauffeur-form .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.chauffeur-form .btn:hover {
+  background-color: #218838;
+}
+/* src/styles/InscriptionChauffeur.css */
+
+/* .chauffeur-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.chauffeur-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  animation: slideDown 0.6s ease-in-out;
+}
+
+.chauffeur-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chauffeur-form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.chauffeur-form input:focus {
+  border-color: #27ae60;
+  outline: none;
+}
+
+.chauffeur-form .btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.chauffeur-form .btn:hover {
+  background-color: #219150;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */

@@ -1,0 +1,50 @@
+.reclamations-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.reclamations-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.reclamations-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reclamations-form input,
+.reclamations-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.reclamations-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.reclamations-form button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reclamations-form button:hover {
+  background-color: #0056b3;
+}
