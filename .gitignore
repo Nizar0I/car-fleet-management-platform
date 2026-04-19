@@ -1,0 +1,6 @@
+.env
+.env.*
+parcauto2-backend/.env
+parcauto1_db.sql
+node_modules/
+vendor/
